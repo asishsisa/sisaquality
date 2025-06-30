@@ -2,109 +2,91 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SISA Quality Production</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sisa Quality Production</title>
   <style>
     body {
+      font-family: Arial, sans-serif;
       margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background-color: #ffffff;
+      background-color: #fff;
       color: #000;
     }
     header, footer {
-      background: #000;
+      background-color: #000;
       color: #fff;
       text-align: center;
       padding: 1rem;
     }
-    nav a {
-      color: #fff;
-      margin: 0 15px;
-      text-decoration: none;
-    }
     section {
       padding: 2rem;
     }
-    .products, .services {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1.5rem;
+    img.banner {
+      width: 100%;
+      max-width: 400px;
+      display: block;
+      margin: 0 auto;
+      border-radius: 10px;
+      margin-bottom: 1rem;
     }
-    .card {
-      border: 1px solid #ccc;
-      padding: 1rem;
-      border-radius: 8px;
+    .center {
+      text-align: center;
     }
     .highlight {
-      color: #008000;
+      color: #0033cc;
+      font-weight: bold;
     }
-    @media (max-width: 600px) {
-      header, footer { font-size: 14px; }
-      nav { display: block; margin-top: 0.5rem; }
+    button {
+      background-color: #0070ba;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.5rem;
+      font-size: 16px;
+      margin-top: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #005a99;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>SISA QUALITY SUPPLY</h1>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#products">Products</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <h1>SISA QUALITY PRODUCTION</h1>
+    <p>Empowering Farmers & Providing Smart Services</p>
   </header>
 
-  <section id="home">
-    <h2>Welcome to SISA Quality Production</h2>
-    <p>We supply top-quality organic agriculture products to support small farmers and meet customer needs.</p>
+  <section class="center">
+    <h2>✨ AI Writing Help – ₹39 Only ✨</h2>
+    <img src="ai-writing-help.jpg" alt="AI Writing Help Poster" class="banner" />
+    <p>Need help writing a professional email, apology, resume bio, or job application?</p>
+    <p class="highlight">Delivered in 1 Hour | Powered by AI</p>
+    <p>Contact on WhatsApp: <strong>ksahil2555@gmail.com</strong></p>
+    <a href="mailto:ksahil2555@gmail.com">
+      <button>Email Us Now</button>
+    </a>
   </section>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>SISA Quality Production began as an innovative idea to help small farmers gain better profits through direct sales and quality control. We are proud to supply authentic products from Koraput, Odisha.</p>
-  </section>
-
-  <section id="services">
-    <h2>Our Services</h2>
-    <div class="services">
-      <div class="card">
-        <h3>Order by Advance</h3>
-        <p>Place orders in advance for bulk purchases and ensure timely delivery.</p>
-      </div>
-      <div class="card">
-        <h3>On-demand Supply</h3>
-        <p>We provide products as per your custom demand and quantity.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="products">
+  <section>
     <h2>Our Products</h2>
-    <div class="products">
-      <div class="card"><strong>Raw Turmeric</strong></div>
-      <div class="card"><strong>Black Pepper</strong></div>
-      <div class="card"><strong>Ginger</strong></div>
-      <div class="card"><strong>Cashew Nut</strong></div>
-      <div class="card"><strong>Groundnut</strong></div>
-      <div class="card"><strong>Ragi</strong></div>
-      <div class="card"><strong>Rice</strong></div>
-      <div class="card"><strong>Organic Coffee</strong></div>
-    </div>
+    <ul>
+      <li>Raw Turmeric</li>
+      <li>Black Pepper</li>
+      <li>Ginger, Ragi, Rice</li>
+      <li>Cashew Nut, Groundnut</li>
+      <li>Organic Coffee</li>
+    </ul>
   </section>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p><strong>Email:</strong> asishsisa695@gmail.com</p>
-    <p><strong>Phone:</strong> 7815011563</p>
-    <p><strong>Address:</strong> Badaput, Bilaput, Near Haraganda, 764041</p>
+  <section>
+    <h2>Contact Info</h2>
+    <p>Email: <a href="mailto:asishsisa695@gmail.com">asishsisa695@gmail.com</a></p>
+    <p>Phone: 7815011563</p>
+    <p>Address: Badaput, Bilaput, Near Haraganda 764041</p>
   </section>
 
   <footer>
-    <p>&copy; 2025 SISA Quality Production. All rights reserved.</p>
+    <p>© 2025 Sisa Quality Production</p>
   </footer>
 
 </body>
