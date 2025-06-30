@@ -20,32 +20,35 @@
     section {
       padding: 2rem;
     }
+    .center {
+      text-align: center;
+    }
     img.banner {
       width: 100%;
       max-width: 400px;
+      margin: 0 auto 1rem;
       display: block;
-      margin: 0 auto;
       border-radius: 10px;
-      margin-bottom: 1rem;
     }
-    .center {
-      text-align: center;
+    img.qr {
+      width: 180px;
+      margin-top: 1rem;
+    }
+    button {
+      padding: 0.7rem 1.5rem;
+      font-size: 16px;
+      background-color: #0070ba;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    button:hover {
+      background-color: #005a99;
     }
     .highlight {
       color: #0033cc;
       font-weight: bold;
-    }
-    button {
-      background-color: #0070ba;
-      color: white;
-      border: none;
-      padding: 0.7rem 1.5rem;
-      font-size: 16px;
-      margin-top: 1rem;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #005a99;
     }
   </style>
 </head>
@@ -61,10 +64,19 @@
     <img src="ai-writing-help.jpg" alt="AI Writing Help Poster" class="banner" />
     <p>Need help writing a professional email, apology, resume bio, or job application?</p>
     <p class="highlight">Delivered in 1 Hour | Powered by AI</p>
-    <p>Contact on WhatsApp: <strong>ksahil2555@gmail.com</strong></p>
-    <a href="mailto:ksahil2555@gmail.com">
-      <button>Email Us Now</button>
-    </a>
+    <p>WhatsApp or Email: <strong>ksahil2555@gmail.com</strong></p>
+
+    <h3>Pay ₹39 to Get Started</h3>
+
+    <!-- PayPal -->
+    <form action="https://www.paypal.com/paypalme/depkumar71/39" method="get" target="_blank">
+      <button type="submit">Pay ₹39 with PayPal</button>
+    </form>
+
+    <!-- UPI -->
+    <p style="margin-top: 1.5rem;"><strong>Pay via UPI:</strong></p>
+    <p>UPI ID: <strong>ksahil2855-5@okicici</strong></p>
+    <img src="upi-qr.png" alt="UPI QR Code" class="qr" />
   </section>
 
   <section>
