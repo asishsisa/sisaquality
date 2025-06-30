@@ -1,96 +1,111 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sisa Quality Production</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SISA Quality Production</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
   <style>
     body {
       margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: #f9f9f9;
-      color: #333;
+      font-family: 'Roboto', sans-serif;
+      background-color: #ffffff;
+      color: #000;
     }
-    header {
-      background: #1a1a1a;
+    header, footer {
+      background: #000;
       color: #fff;
-      padding: 2rem;
       text-align: center;
+      padding: 1rem;
     }
     nav a {
       color: #fff;
-      margin: 0 1rem;
+      margin: 0 15px;
       text-decoration: none;
-      font-weight: 600;
     }
     section {
       padding: 2rem;
-      max-width: 800px;
-      margin: auto;
     }
-    h1, h2 {
-      color: #1a1a1a;
+    .products, .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
     }
-    .services {
-      background: #fff;
+    .card {
+      border: 1px solid #ccc;
       padding: 1rem;
       border-radius: 8px;
-      margin: 1rem 0;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
-    .contact-btn, .order-btn {
-      display: inline-block;
-      padding: 0.75rem 1.5rem;
-      background: #1a1a1a;
-      color: #fff;
-      border-radius: 6px;
-      text-decoration: none;
-      margin-top: 1rem;
+    .highlight {
+      color: #008000;
     }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #1a1a1a;
-      color: #aaa;
+    @media (max-width: 600px) {
+      header, footer { font-size: 14px; }
+      nav { display: block; margin-top: 0.5rem; }
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Sisa Quality Production</h1>
-    <p>AI-Powered Writing & Communication Help</p>
+    <h1>SISA QUALITY SUPPLY</h1>
     <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
       <a href="#services">Services</a>
-      <a href="#order">Order</a>
+      <a href="#products">Products</a>
       <a href="#contact">Contact</a>
     </nav>
-  </header>  <section id="services">
+  </header>
+
+  <section id="home">
+    <h2>Welcome to SISA Quality Production</h2>
+    <p>We supply top-quality organic agriculture products to support small farmers and meet customer needs.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>SISA Quality Production began as an innovative idea to help small farmers gain better profits through direct sales and quality control. We are proud to supply authentic products from Koraput, Odisha.</p>
+  </section>
+
+  <section id="services">
     <h2>Our Services</h2>
     <div class="services">
-      <h3>📧 Email Writing</h3>
-      <p>Professional and polished emails for job applications, business, or personal use. Delivered in 1 hour. <strong>₹39</strong></p>
+      <div class="card">
+        <h3>Order by Advance</h3>
+        <p>Place orders in advance for bulk purchases and ensure timely delivery.</p>
+      </div>
+      <div class="card">
+        <h3>On-demand Supply</h3>
+        <p>We provide products as per your custom demand and quantity.</p>
+      </div>
     </div>
-    <div class="services">
-      <h3>📝 Bio & Profile Writing</h3>
-      <p>We craft powerful short bios for Instagram, resumes, or websites. <strong>₹39</strong></p>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="card"><strong>Raw Turmeric</strong></div>
+      <div class="card"><strong>Black Pepper</strong></div>
+      <div class="card"><strong>Ginger</strong></div>
+      <div class="card"><strong>Cashew Nut</strong></div>
+      <div class="card"><strong>Groundnut</strong></div>
+      <div class="card"><strong>Ragi</strong></div>
+      <div class="card"><strong>Rice</strong></div>
+      <div class="card"><strong>Organic Coffee</strong></div>
     </div>
-    <div class="services">
-      <h3>📄 Resume Creation</h3>
-      <p>Clean, professional resumes that get noticed. <strong>₹49</strong></p>
-    </div>
-    <div class="services">
-      <h3>🔁 Hindi-English Translation</h3>
-      <p>Fast and accurate translations. <strong>₹29 per 300 words</strong></p>
-    </div>
-  </section>  <section id="order">
-    <h2>Place an Order</h2>
-    <p>Submit your request through our <a class="order-btn" href="https://forms.gle/your-google-form-link">Google Form</a> or contact us directly on WhatsApp.</p>
-  </section>  <section id="contact">
+  </section>
+
+  <section id="contact">
     <h2>Contact Us</h2>
-    <p>Email: <a href="mailto:asishsisa695@gmail.com">asishsisa695@gmail.com</a></p>
-    <p>WhatsApp: <a class="contact-btn" href="https://wa.me/917815011563">Chat on WhatsApp</a></p>
-  </section>  <footer>
-    <p>&copy; 2025 Sisa Quality Production. All rights reserved.</p>
+    <p><strong>Email:</strong> asishsisa695@gmail.com</p>
+    <p><strong>Phone:</strong> 7815011563</p>
+    <p><strong>Address:</strong> Badaput, Bilaput, Near Haraganda, 764041</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SISA Quality Production. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
